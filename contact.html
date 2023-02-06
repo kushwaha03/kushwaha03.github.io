@@ -160,12 +160,9 @@ $(document).ready(function(){
       </form>
 <!-- 	added line for alter please remove for final after end   -->
 	 <script>
-  	 $("#submit").click(function() {
-		     console.log(document.forms["contact-form"]["Name"].value);
-		 		     console.log(document.forms["contact-form"]["Phone"].value);
-		 		     console.log(document.forms["contact-form"]["Email"].value);
-		 		     console.log(document.forms["contact-form"]["Message"].value);
+	console.log(document.forms["contact-form"].value);
 
+  	 $("#submit").click(function() {
       	alert("The Form has been Submitted. Thank you!");
   	 });
 	</script>
